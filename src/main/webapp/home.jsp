@@ -10,7 +10,7 @@
 
 	Welcome Programmer ..
 	testing jsp
-	<a href="/logout">logout</a>
+	<a href="/logout-sucess">logout</a>
 
 </body>
 </html>
