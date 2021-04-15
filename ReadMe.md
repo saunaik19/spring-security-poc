@@ -24,9 +24,7 @@ docker pull mysql/mysql-server:5.7
 step 2 see images
 docker images
 step 3 run docker image
-docker run --name mysql1 -e MYSQL_USER=root -e MYSQL_PASSWORD=root -e MYSQL_DATABASE=homedb -p 3306:3306 -d mysql/mysql-server:5.7
-output of above command will look like this.
+docker run -p 3306:3306 --name mysql-server -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7output of above command will look like this.
 b474478f2af64c69651ab1ce4d8a19759464cb0a29148677fa07344b3c3ff565
-
 You can connect to this mysql db from  sqldeveloper or any supporting client
-
+username & password are root
